@@ -1,0 +1,13 @@
+edit_part/temp
+edit_part/__pycache__
+edit_part/results
+edit_part/tmp
+edit_part/out
+edit_part/data/objects.zip
+
+reconstruction_part/temp
+reconstruction_part/__pycache__
+reconstruction_part/results
+reconstruction_part/tmp
+reconstruction_part/out
+

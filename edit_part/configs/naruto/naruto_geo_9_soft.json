@@ -1,0 +1,36 @@
+{
+    "mode": "geometry_modeling",
+    "sdf_init_shape": "ellipsoid",
+    "base_mesh_offset": [[0, 0.45, 0]],
+    "base_mesh_scale": [[0.5, 1, 0.5]], 
+    "base_mesh_rotate_x": [5], 
+    "base_mesh_rotate_z": [0], 
+    "ref_mesh_scale": [1.8, 1.8, 1.8],  // same with the appear learning
+    "ref_mesh_offset": [0, 0, 0.1],   // same with the appear learning
+    "ref_mat": "../reconstruction_part/out/Naruto_appearance_nrm_str2/checkpoints/2000.pth",   // load the pretrained mat ckpt
+    "ref_mesh": "./data/naruto.obj",    // load the ref mesh
+    "iter": 5000,
+    "coarse_iter": 2500,
+    "save_interval": 100,
+    "train_res": [512, 512],
+    "batch": 4,
+    "dmtet_grid" : 256,
+    "display": [{"bsdf" : "normal"}],
+    "train_background": "black",
+    "validate" : true,
+    "mesh_scale" : 2.1,     // 
+    "out_dir": "naruto_geo_9_region10k_coin100",   // outdir
+    "text" : "the anime character Naruto with nine fox tails",    // text
+    "seed" : 42,
+    "add_directional_text": true,
+    "camera_random_jitter": 0.4,  
+    "fovy_range": [25.71, 45],
+    "elevation_range": [-10, 45],
+    "guidance_weight": 50,   // easy to learn50, hard to learn 100,
+    "if_flip_the_normal": true,   // true or false,
+    "early_time_step_range": [0.02, 0.35],   // 0.5
+    "late_time_step_range": [0.02, 0.5],   
+    "region_w": 10000,   // no more than the edit resion
+    "coincide_w": 100,
+    "sdf_softmerge": true
+}

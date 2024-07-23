@@ -1,0 +1,18 @@
+tqdm
+ninja
+transformers
+accelerate
+xatlas
+diffusers
+open3d==0.14.1
+imageio==2.9.0
+kaolin==0.13.0 -f https://nvidia-kaolin.s3.us-east-2.amazonaws.com/torch-1.12.1_cu113.html
+ipdb
+imageio_ffmpeg
+trimesh
+triton
+git+https://github.com/NVlabs/nvdiffrast.git
+git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
+git+https://github.com/facebookresearch/xformers.git@main#egg=xformers
+git+https://github.com/ashawkey/cubvh
+
