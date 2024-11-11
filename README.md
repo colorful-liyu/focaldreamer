@@ -6,7 +6,7 @@
 
 ![Teaser image](./assets/teaser.png)
 
-**The codes will be released soon! 🏗️ 🚧 🔨**
+**The codes have been released!**
 
 # Introduction
 [**FocalDreamer: Text-Driven 3D Editing via Focal-Fusion Assembly**](https://arxiv.org/abs/2308.10608)<br>
